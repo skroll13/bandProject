@@ -1,47 +1,56 @@
 {
     "albums": [
       {
-        "name": "The Black Crowes",
-        "shortname": "shakeyourmoneymaker",
-        "albumname": "Shake Your Money Maker",
-        "summary": "Shake Your Money Maker is the debut studio album by American rock band the Black Crowes, released on February 13, 1990 on Def American Recordings. It is the only album by the band to feature guitarist Jeff Cease. The album is named after a classic blues song written by Elmore James. The Black Crowes have played the song live many times over the years, but it is not included on this album. Shake Your Money Maker peaked at No. 4 on the Billboard 200, and two of its singles, 'Hard to Handle' and 'She Talks to Angels', reached No. 1 on the Mainstream Rock Tracks chart. 'Jealous Again', 'Twice As Hard' and 'Seeing Things' were also charting singles in the United States.Shake Your Money Maker is the Black Crowes' best selling album, having sold more than 5 million copies. credit: wikipedia",
-        "artwork": ["album-shake-your-money-maker.jpeg"],
-        "albumSM": "https://open.spotify.com/album/2NRRQLuW6j3EsoWpIl2MR3?si=lGUF4O1xSqWhS5IUS0vRWQ"
+        "name": "Khruangbin",
+        "shortname": "universesmilesuponyou",
+        "albumname": "The Universe Smiles Upon You",
+        "summary": "Max Savage Levenson of Paste reviewed The Universe Smiles Upon You is 'a subtle dance, a constellation of small movements and highly nuanced arrangements that unfolds seamlessly, like ripples on the water.' Peter Helman of Stereogum said 'The album is something both groove-heavy and dreamy, and it absolutely evokes the deep-in-the-wilderness'. credit: wikipedia",
+        "artwork": ["the_universe_smiles_upon_you_1585443424.jpeg"],
+        "albumSM": "https://open.spotify.com/album/2OPcQNLP8DQVumD8kBRAH3?si=UA4DYLybTF-LRlqH6jMX_w"
       },
       {
-        "name": "The Black Crowes",
-        "shortname": "southernharmony",
-        "albumname": "The Southern Harmony and Musical Companion",
-        "summary": "The Southern Harmony and Musical Companion is the second studio album by American rock band the Black Crowes, released on May 12, 1992. It was the first album by the band to feature Marc Ford on lead guitar, replacing Jeff Cease, who was fired the year before, and the first to feature keyboardist Eddie Harsch. The album's name derives from the full name of the Southern Harmony, an influential 1835 hymnal compiled by William Walker. credit: wikipedia",
-        "artwork": ["album-the-southern-harmony-and-musical-companion.jpeg"],
-        "albumSM": "https://open.spotify.com/album/4hVgzAM4i3dPdhZQki9cKk?si=LIzCqJbLSDKKp4SyhjIwoA"
+        "name": "Khruangbin",
+        "shortname": "contotoelmundo",
+        "albumname": "Con Todo el Mundo",
+        "summary": "Con Todo el Mundo was met with widespread acclaim reviews from critics. Erin MacLeod of Pitchfork reviewed 'Con Todo el Mundo crafts a unique, psychedelic vibe that hangs between continents and eras.'' credit: wikipedia",
+        "artwork": ["con_todo_el_mundo_1585088041.jpeg"],
+        "albumSM": "https://open.spotify.com/album/7hTmy5ipq0ieK4DZZqaxml?si=3QJa_8SAQte960UOpqt2qw"
       },
       {
-        "name": "The Black Crowes",
-        "shortname": "threesnakes",
-        "albumname": "Three Snakes and One Charm",
-        "summary": "Three Snakes garnered generally positive reviews upon its release. Stephen Thomas Erlewine gave album three stars on AllMusic, stating the album was 'a winning album, mainly because the Black Crowes' musicianship continues to deepen -- the musical fusions and eclecticism are seamless.' Rolling Stone magazine also gave the album three stars, noting that it works best when it forsakes album-oriented pretension for singular clarity, from the oblique Beatles references on 'Nebakanezer' and 'Bring On, Bring On' to the Sly Stone-cum-Al Green funk of '(Only) Halfway to Everywhere' and the warm acoustic resignation of 'Better When You're Not Alone.' credit: wikipedia",
-        "artwork": ["3snakes1charm.jpeg"],
+        "name": "Khruangbin",
+        "shortname": "hastaelcielo",
+        "albumname": "Hasta el Cielo",
+        "summary": " credit: wikipedia",
+        "artwork": ["hasta_el_cielo_1585443760.jpeg"],
         "tracklist": "",
-        "albumSM": "https://open.spotify.com/album/5KEqZXp6Aw2LF6J5bjelbf?si=LW2hWBXIQzmbbOQzrXQRFg"
+        "albumSM": "https://open.spotify.com/album/0CCC2ksZMrvRVXf9F1NADZ?si=uU8rqCAWR8S_u0MSp8PI2g"
       },
       {
-        "name": "The Black Crowes",
-        "shortname": "amorica",
-        "albumname": "Amorica",
-        "summary": "Amorica is the third studio album by American rock band The Black Crowes. Spawned from the band's unreleased, incompleted, scrapped Tall album, Amorica was released November 1, 1994, on American Recordings and reissued in the UK in 1998 with two bonus tracks. Amorica reached gold status in the United States, shipping 500,000 copies. credit: wikipedia",
-        "artwork":["Amorica_censored_cover.jpeg"],
+        "name": "Khruangbin",
+        "shortname": "mordechai",
+        "albumname": "Mordechai",
+        "summary": "Mordechai has a score of 79 out of 100 on Metacritic, indicating 'generally favorable reviews', based on 16 reviews. Dylan Barnabe of Exclaim! reviewed Mordechai is an ode to all that Khruangbin have achieved and a look forward to everything that is to come. Sophia Ordaz of Slant Magazine said 'While past Khruangbin albums risked coming off merely as studied tributes to the microcosms of Thai and Iranian rock, Mordechai finds Khruangbin coming into their own, thanks to the band's lyrical development and the honing of their fusion of intercontinental influences.' credit: wikipedia",
+        "artwork":["mordechai_1589814010.jpeg"],
         "tracklist": "",
         "albumSM": "https://open.spotify.com/album/2CRxy0mStMW5Ld1cXsVpgU?si=RoF3VnDeSI6dgJSn9c-aow"
       },
       {
-        "name": "The Black Crowes",
-        "shortname": "liveatthegreek",
-        "albumname": "Live at the Greek",
-        "summary": "Live at the Greek: Excess All Areas is a double live album by Jimmy Page and the Black Crowes, released by musicmaker.com on 29 February 2000 and reissued by TVT Records on 4 July 2000.",
-        "artwork": ["LiveAtTheGreek.jpeg"],
+        "name": "Khruangbin",
+        "shortname": "texassun",
+        "albumname": "Texas Sun",
+        "summary": "From their respective metropolises, Khruangbin and Leon Bridges offer fascinating variations on the notion of 'Texas music.” The Fort Worth-based Bridges explores a strain of soul that is more closely associated with Mississippi and Chicago than the Lone Star State, while Houston trio Khruangbin dabbles in a strain of globally minded, stoner-friendly psychedelia that authorities didn't always look upon so kindly. Today, both artists find themselves rising stars, garnering millions of streams and promoting the vision of a more diverse and open-minded Texas, the one that leads to headlines like this. credit: pitchfork",
+        "artwork": ["texas_sun_1587172452.jpeg"],
         "tracklist": "",
-        "albumSM": "https://open.spotify.com/album/4LgSNfHfSLGEB0EufP9aIB?si=_4SenARDRKqHgQIdSiiNhg"
+        "albumSM": "https://open.spotify.com/album/4HFO9PDRxsdbcegkcNhxgz?si=R-xu5D4CSSajtTiJqOiCOw"
+      },
+      {
+        "name": "Khruangbin",
+        "shortname": "texasmoon",
+        "albumname": "Texas Moon",
+        "summary": "No matter the genre, a certain type of music will forever be specific to the American experience: road trip music. There's Willie Nelson's country-pop crossover 'On The Road Again,' quintessential 2010s indie-folk song 'Home' by Edward Sharpe and The Magnetic Zeros (music that Gen Z now refers to as 'stomp clap hey'), and the more euphemistic, exuberant 'Freeway of Love' by Aretha Franklin. Now with their second collaborative EP Texas Moon, neo-soul crooner Leon Bridges and psychedelic funk-rock trio Khruangbin deliver a different kind of road trip music.If Nelson's catalog is perfectly accompanied by a hot, dusty drive through the fast-food-lined interstate highways, Texas Moon is a project ideally listened to on a breezy, isolated, moon-lit drive home on country backroads. Each song is a lullaby of loungey and covertly seductive tones crafted to accompany late-night contemplative trips and, well, other after-hour activities. Texas Moon is the five-track sister project to Bridges and Khruangbin's unexpected-yet-successful 2020 EP Texas Sun, which earned Khruangbin their top-streamed songs (the title track has over 105 million streams on Spotify alone) and landed at No. 1 on Billboard Americana/Folk Albums chart. credit: paste magazine",
+        "artwork": ["texasmoon_1645660574.jpeg"],
+        "tracklist": "",
+        "albumSM": "https://open.spotify.com/album/2Xs9xSBhvyo8F6daRc1npu?si=DSghX0s0TLGM_HrqVvYk6g"
       }
     ]
   }

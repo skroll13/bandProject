@@ -1,4 +1,5 @@
 const express = require(`express`);
+const router = require("./routes/albums");
 const app = express();
 let port = 3000;
 
@@ -13,3 +14,4 @@ app.listen(port, ()=>{
     console.log(`listening on port ${port}`);
 })
 
+module.exports = router
