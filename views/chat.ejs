@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+<!-- <h1>Hello World</h1> -->
+
+  <!-- chat container -->
+  <div class="chat-container">
+    <div class="row">
+        <div class="col-sm-12">
+            <article class="chat">
+                <header class="chat-header">
+                    <div class="h3 chat-title">chat</div>
+                </header>
+
+                <form name="chatForm" class="form-horizontal chat-form">
+                    <div class="form-group">
+                        <label for="chat-username" class="col-sm-2 control-label">name</label>
+                        <div class="col-sm-10">
+                            <input type="text" class="form-control" id="chat-username" required placeholder="Please enter your name">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="chat-message" class="col-sm-2 control-label">message</label>
+                        <div class="col-sm-10">
+                            <div class="input-group">
+                                <input type="text" placeholder="Enter a message" class="form-control" id="chat-message" rows="2" autocomplete="off" required>
+                                <span class="inpurt-group-btn">
+                                    <button id="chat-submit" class="btn btn-info" type="submit" style="background-color: grey; border: none;">chat</button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+
+                <div class="panel panel-default">
+                    <div class="panel-body chat-display">
+                        <p class="text-muted chat-text">welcome to the chat. leave your message by using the form above</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+    </div>
+</div>
+
+
+<!-- is this socket.io line of code enough to make it work? it's different than the code in the instructional video I watched -->
+<script src="/socket.io/socket.io.js"></script> 
+<script src="/js/chatClient.js"></script>
+</body>
+</html>
