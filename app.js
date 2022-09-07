@@ -5,9 +5,6 @@ const app = express();
 //install socket.io
 const socket = require('socket.io');
 
-const { pool } = require('./dbConfig')
-require('dotenv').config
-
 //identify the port
 // let port = 3000;
 //this port allows netlify to connect to this project:
