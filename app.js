@@ -6,7 +6,9 @@ const app = express();
 const socket = require('socket.io');
 
 //identify the port
-let port = 3000;
+// let port = 3000;
+//this port allows netlify to connect to this project:
+const PORT = process.env.PORT || 8080 
 
 const router = require("./routes/albums");
 
