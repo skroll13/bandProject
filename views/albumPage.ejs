@@ -7,18 +7,18 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/css/albums.css">
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg bg-light">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="/#">ode to khruangbin.</a>
+  <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
+      <a class="navbar-brand" aria-current="page" href="/#">ode to khruangbin.</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarText">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="/albums">albums</a>
+            <a class="nav-link" href="/albums">albums</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="/chat">chat</a>
@@ -27,16 +27,16 @@
             <a class="nav-link" href="/form">send us a message</a>
           </li>
         </ul>
-        <!-- <span class="navbar-text">
-          Navbar text with an inline element
-        </span> -->
       </div>
-    </div>
   </nav>
 <h1><%= albumName[0].albumname %> </h1>
+<div class="albumPageText">
 <%= albumName[0].summary %> <br>
-<a href="<%= albumName[0].albumSM %> ">listen</a> <br>
-<img src="/images/<%= albumName[0].artwork %> " alt="">
+<br>
+<a class="btn btn-dark" href="<%= albumName[0].albumSM %>" role="button">listen</a>
+<br>
+<img class="img" src="/images/<%= albumName[0].artwork %> " alt="<%= albumName[0].albumname %> album artwork">
+</div>
 
 
 </body>

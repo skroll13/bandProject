@@ -12,7 +12,7 @@
 </head>
 <body>
 <!-- <h1>albums</h1> -->
-<nav class="navbar navbar-expand-lg bg-light">
+<nav class="navbar navbar-dark navbar-expand-lg bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="/#">ode to khruangbin.</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,12 +41,10 @@
 
 
 <div class="album-container"><% albums.forEach(albumObject => { %>
-
-  <ul>
-    <a href = "/albums/<%=albumObject.shortname%> "> <%= albumObject.albumname %> </a>
-    <img class="album-container img" src="/images/<%= albumObject.artwork %>" alt="album cover images">
-  </ul>
-  
+  <div class="center">
+    <a role="button" href="/albums/<%=albumObject.shortname%>" class="btn btn-dark" ><%= albumObject.albumname %></a>
+    <img class="img" src="/images/<%= albumObject.artwork %>" alt="album cover images">
+  </div>  
 <% }) %>
 </div>
 
